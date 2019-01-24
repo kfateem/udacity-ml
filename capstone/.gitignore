@@ -1,2 +1,5 @@
 input
 notebooks/.ipynb_checkpoints/
+notebooks/*.npy
+notebooks/*.pkl
+notebooks/*.h5
