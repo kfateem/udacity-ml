@@ -8,7 +8,7 @@ The are 2 approaches to obtain files:
 A GCP image, kfateem-capstone-5 is available with the datasets, required libraries and jupyter server and all jupyter notebooks.
 The support@udacity.com has image user privliges. Please contact me at karim.fateem@gmail.com if you require additional access.
 
-To start the image run:
+- to start the image run:
 
 ----------------------- BEGIN COMMANDS ------------------------------------
 
@@ -20,9 +20,12 @@ gcloud compute instances create $INSTANCE_NAME  --zone=$ZONE  --maintenance-poli
 
 gcloud compute ssh --project <ENTER YOUR PROJECT> --zone us-west1-b alpha-vm -- -L 8080:localhost:8080
 
-# Then launch http://localhost:8080/lab?
-
 ----------------------- END COMMANDS ------------------------------------
+
+- launch http://localhost:8080/lab?
+
+- navigate to the notebook files from within Jupyter:
+~jupyter/github_kfateem_udacity-ml/capstone/notebooks
 
 2. Kaggle:
 ----------
